@@ -1,0 +1,70 @@
+:root {
+    --size: 150px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.ball {
+    position: absolute;
+    width: var(--size);
+    height: var(--size);
+    border-radius: 50%;
+    background-color: rgb(41, 24, 24);
+    bottom: calc(100% - var(--size));
+    left: calc(50% - var(--size) / 2);
+}
+
+.el1, .el2, .el3{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+
+}
+
+.el1 {
+    background-color: rgb(0, 213, 228);
+}
+
+.el2{
+    background-color: rgb(40, 181, 236);
+    position: relative;
+}
+
+.el3 {
+    background-color: coral;
+}
+
+.box1 {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: #fff;
+    margin: 20px;
+    transform: translateX(70vw);
+
+}
+
+
+.sun {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: orange;
+    border-radius: 50%;
+    bottom: 20vh;
+    left: 100px;
+    box-shadow: 0 0 13px 0 orange;
+}
+
+.grass {
+    position: absolute;
+    width: 100%;
+    height: 30vh;
+    background-color: green;
+    bottom: 0;
+}
+
