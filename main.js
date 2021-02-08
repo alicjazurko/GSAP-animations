@@ -15,3 +15,6 @@ TweenMax.to('.sun', animationTime/2, {
     backgroundColor: 'yellow',
     boxShadow: '0 0 120px 0 yellow'
 })
+
+TweenMax.set('div', {visibility: 'visible'})
+TweenMax.staggerFrom('.text div', 1, {x: 130, opacity: 0, delay: 0.5}, 0.3)
